@@ -22,4 +22,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.TOKEN_GITHUB }}
-        publish_branch: main # Modifier si votre dossier de sortie est différent
+        publish_dir: ./dist # Modifier si votre dossier de sortie est différent
